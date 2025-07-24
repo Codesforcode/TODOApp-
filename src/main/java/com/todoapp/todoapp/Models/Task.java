@@ -11,9 +11,10 @@ import lombok.Data;
 public class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-private int id;
-private String taskName;
+private Long id;
+private String title;
 private boolean completed;
+
 
 
 }
